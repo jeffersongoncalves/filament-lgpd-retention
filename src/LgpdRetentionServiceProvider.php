@@ -2,17 +2,17 @@
 
 namespace JeffersonGoncalves\Filament\LgpdRetention;
 
+use JeffersonGoncalves\FilamentPluginCore\BasePackageServiceProvider;
 use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class LgpdRetentionServiceProvider extends PackageServiceProvider
+class LgpdRetentionServiceProvider extends BasePackageServiceProvider
 {
+    public static string $name = 'filament-lgpd-retention';
+
     public function configurePackage(Package $package): void
     {
         $package
-            ->name('filament-lgpd-retention')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigrations();
+            ->name(static::$name)
+            ->hasTranslations();
     }
 }
