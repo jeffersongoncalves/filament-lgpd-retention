@@ -20,7 +20,7 @@ The Filament panel for [laravel-lgpd-retention](https://github.com/jeffersongonc
 - **Apply retention:** anonymizes every column whose period has ended, each with its own strategy.
 - **Re-apply after backup:** anonymizes again the columns that a restored backup brought back.
 - The list of anonymized columns (tombstones), filterable by model and column. Tombstones hold no personal data.
-- English and Brazilian Portuguese.
+- 19 languages.
 
 ## Compatibility
 
