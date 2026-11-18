@@ -27,7 +27,7 @@
         "php": "^8.2",
         "filament/filament": "^5.3",
         "jeffersongoncalves/filament-plugin-core": "^3.0",
-        "jeffersongoncalves/laravel-lgpd-retention": "^1.1",
+        "jeffersongoncalves/laravel-lgpd-retention": "^2.0",
         "spatie/laravel-package-tools": "^1.16"
     },
     "require-dev": {
